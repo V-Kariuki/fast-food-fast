@@ -1,0 +1,127 @@
+#restaurantMenu 
+{
+    border-style: solid;
+    border-width: 5px;
+    background-color: white;
+    padding: 40px;
+    text-align: center;
+    font-size:48px;
+    font-family: "Roboto",Sans-serif;
+    font-weight: bold;  
+    color:rgb(237, 164, 9);
+}
+
+#price{   
+          font-weight: light;
+          font-size: 30px;
+          font-style: Italic;
+          color: white;
+          margin-left: 200px;
+          margin-top: 25px}
+
+#itemDescription
+          {font-weight: light;
+          font-size: 30px;
+          font-style: Italic; 
+          color: white;}
+
+body {
+  background-color:rgb(199, 0, 57  );
+  opacity: 0.9;
+  font-family:font-family: "Roboto",Sans-serif;
+}
+header {    max-width:100%;
+            background-color:#888;
+            padding:20px;
+            margin:0 auto;}
+
+nav, ul, li {float: right;
+  display:inline-block;
+}
+
+nav {
+  vertical-align:top;
+  margin-top:20px;
+}
+
+ul {
+  margin:10px;
+  padding:0;
+}
+
+li {
+  margin:20px;
+  vertical-align:top;
+}
+
+a {       display:block;
+          padding: 20px 50px;
+          background-color:green; 
+          color:white;
+          font-weight:bold;
+          text-decoration:none;
+          width: 300px; }
+
+
+ {
+    list-style-type: none;
+    font-size: 18pt;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    }
+li {                float: left;}
+
+li a, .dropbtn {    display: inline-block;
+                    color: white;
+                    text-align: center;
+                    padding: 14px 16px;
+                    text-decoration: none;}
+li a:hover, .dropdown:hover .dropbtn {
+                    background-color:green;}
+.dropdown-content { display: none;
+                    position: absolute;
+                    background-color: white;
+                    min-width: 160px;
+                    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                    z-index: 1;}
+.dropdown-content a { color: black;
+                      padding: 12px 16px;
+                      text-decoration: none;
+                      display: block;
+                      text-align: left;}
+.dropdown-content a:hover {background-color: white}
+.dropdown:hover .dropdown-content {display: block;}
+
+}
+ul li{float: right;
+  width: 200px;
+  height: 40px;
+  background-color: white;
+  opacity: 0.7;
+  line-height: 40px;
+  text-align: center;
+  font-size: 20px;
+}
+
+ul li a:{background-color: white;
+  border: 1px solid white;
+}
+
+ul li ul li{display: none;
+}
+
+.button {
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+.button:hover {
+    background-color: grey;
+}
